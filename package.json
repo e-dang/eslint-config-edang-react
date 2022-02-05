@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint --ext .js ."
+    "lint": "eslint --ext .js .",
+    "semantic-release": "semantic-release --branches main"
   },
   "devDependencies": {
     "commitizen": "^4.2.4",
@@ -25,7 +26,8 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "semantic-release": "^19.0.2"
   },
   "peerDependencies": {
     "eslint": "^8.8.0",
@@ -39,5 +41,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-dang/eslint-config-edang-react.git"
   }
 }
