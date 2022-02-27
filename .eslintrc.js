@@ -4,6 +4,13 @@ module.exports = {
     es6: true,
     browser: true,
   },
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".mjs", ".js", ".json", ".ts", ".d.ts", ".jsx", ".tsx"],
+      },
+    },
+  },
   parserOptions: {
     ecmaVersion: 2017,
   },
