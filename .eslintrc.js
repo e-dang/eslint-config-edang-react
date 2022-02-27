@@ -15,6 +15,7 @@ module.exports = {
     ecmaVersion: 2017,
   },
   rules: {
+    "react/jsx-filename-extension": ["error", {extensions: [".jsx", ".tsx"]}],
     "react/jsx-props-no-spreading": "off",
     "react/function-component-definition": [
       "error",
