@@ -15,6 +15,8 @@ module.exports = {
     ecmaVersion: 2017,
   },
   rules: {
+    "react/no-unused-prop-types": "off", // gets triggered by typescript interfaces and destructured types
+    "react/require-default-props": "off", // gets triggered by typescript interfaces
     "react/jsx-filename-extension": ["error", {extensions: [".jsx", ".tsx"]}],
     "react/jsx-props-no-spreading": "off",
     "react/function-component-definition": [
